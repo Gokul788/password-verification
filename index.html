@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Password Verification</title>
+
+    <!-- Link css-->
+   <link rel="stylesheet" href="style.css">
+
+   <!-- Js link-->
+    <script src="funtion.js" defer></script>
 </head>
 <body>
-    
+    <div class="container">
+        <form action="">
+        <div class="from23">
+            <h1>Login</h1>
+                <div class="sec-1">
+                    <label for="">Name :</label>
+                    <input type="text" id="inputName">
+                    <span id="errorname"></span>
+                </div>
+                <div class="sec-1">
+                    <label for="">Password :</label>
+                    <input type="password" id="inputpassword">
+                    <span id="errorpass"></span>
+                </div>
+                <div class="sec-1">
+                    <label for="">Re-type Password:</label>
+                    <input type="password" id="inputretry">
+                    <span id="errorretry"></span>
+                </div>
+                <div class="sec-2">
+                    <label for="">Verify</label>
+                    <input type="checkbox" id="check">
+                    <span id="veryerro"></span>
+                </div>
+                <input type="submit" id="button">
+        </div>
+    </form>
+    </div>
 </body>
 </html>
